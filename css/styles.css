@@ -2,133 +2,58 @@ body {
     background-color: var(--tint-blue);
 }
 
-h1 {
-    font-size: 5.4rem;
-    font-weight: 600;
-    line-height: 7.4rem;
+.red {
+    border: 2px solid red;
 }
 
-h2 {
-    font-size: 4.8rem;
-    font-weight: 600;
-    line-height: 6.4rem;
-}
-
-h3 {
-    font-size: 3.2rem;
-    font-weight: 500;
-    line-height: 4.8rem;
-}
-
-h4 {
-    font-size: 2.4rem;
-    font-weight: 500;
-    line-height: 3.6rem;
-}
-
-p {
-    font-size: 1.6rem;
-    line-height: 2.8rem;
-}
-
-.subtitle {
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 2.8rem;
-    color: var(--dark-blue);
-}
-
-.card-featured {
+header {
+    position: absolute;
+    left: 0;
     width: 100%;
-    max-width: 40.5rem;
-    height: 31.6rem;
-    background-color: var(--white);
-    padding: 4.8rem 4rem;
+    padding: 1.6rem 0;
 }
 
-.card-featured .icon{
-    width: 3.5rem;
-    height: 3.5rem;
+header .container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.card-featured .text h4{
-    margin-top: 2.5rem;
-    color: var(--dark-blue);
-}
-
-.card-featured .text p{
-    margin-top: 2.5rem;
-    color: var(--dark-blue);
-}
-
-.card-featured .text p {
-    color: var(--dark-blue);
-    opacity: 0.6;
-    max-width: 32.4rem;
-    margin-top: 1.2rem;
-}
-
-.card-post {
-    display: block;
-    width: 100%;
-    max-width: 40.5rem;
-    background-color: var(--white);
-}
-
-.card-post .image {
-    width: 100%;
-    height: 28.5rem;
+header nav {
     display: flex;
     align-items: center;
-    justify-content: center;
-    overflow: hidden;
+    gap: 4.8rem;
 }
 
-.card-post .image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transforme .3s ease;
+header nav ul{
+    display: flex;
+    gap: 3.2rem;
 }
 
-.card-post:hover .image img {
-    transform: scale(1.1);
-}
-
-.card-post .text {
-    margin-top: 4rem;
-}
-
-.card-post .text span{
-    color: var(--dark-blue);
-    opacity: 0.6;
+header nav ul li a{
+    color: var(--grey);
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 2.8rem;
-    margin-bottom: 1.6rem;
-    display: block;
+    opacity: 0.8;
+    transition: opacity .3s ease;
 }
 
-.card-post .text h4{
-    color: var(--dark-blue);
-    margin-bottom: 1.6rem;
+header nav ul li a:hover{
+    opacity: 1;
 }
 
-.card-post .text p{
-    color: var(--dark-blue);
-    opacity: 0.6;
-    margin-bottom: 3.2rem;
+header nav .btn{
+    display: inline-block;
+    padding: 1.6rem 4.8rem;
+    border-radius: 4.1rem;
+    border: 2px solid rgba(244, 246, 252, 0.20);
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--white);
+    transition: background-color .3s ease;
 }
 
-.card-post .text small{
-    display: flex;
-    align-items: center;
-    gap: 1.2rem;
-}
-
-.card-post .text small img{
-    max-width: 2.4rem;
+header nav .btn:hover{
+    background-color: rgba(244, 246, 252, 0.20);
 }

@@ -1,6 +1,6 @@
-body {
+/* body {
     background-color: var(--tint-blue);
-}
+} */
 
 .red {
     border: 2px solid red;
@@ -56,4 +56,69 @@ header nav .btn{
 
 header nav .btn:hover{
     background-color: rgba(244, 246, 252, 0.20);
+}
+
+.s-hero {
+    background-color: var(--tint-blue);
+    padding-top: 21.8rem;
+    padding-bottom: 12.8rem;
+}
+
+.s-hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.s-hero .text {
+    width: 100%;
+    max-width: 58.2rem;
+}
+
+.s-hero .text p {
+    margin-top: 2.4rem;
+    margin-bottom: 4.8rem;
+    max-width: 56.2rem;
+    opacity: 0.6;
+}
+
+.s-hero .text .btns {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.s-hero .text .btns .btn-work {
+    background-color: var(--yellow);
+    padding: 1.6rem 5.6rem;
+    border-radius: 4.1rem;
+    color: var(--tint-blue);
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+    transition: transform .3s ease;
+}
+
+.s-hero .text .btns .btn-work:hover {
+    transform: scale(1.1);
+} 
+
+.s-hero .text .btns .btn-pricing {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.s-hero .text .btns .btn-pricing span {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+}
+
+.s-hero .text .btns .btn-pricing img{
+    transition: transform .3s ease;
+}
+
+.s-hero .text .btns .btn-pricing:hover img {
+    transform: translateX(10px);
 }

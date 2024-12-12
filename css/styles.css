@@ -122,3 +122,86 @@ header nav .btn:hover{
 .s-hero .text .btns .btn-pricing:hover img {
     transform: translateX(10px);
 }
+
+.s-work {
+    background-color: var(--grey);
+    padding: 12.8rem 0;
+}
+
+.s-work .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.s-work .left-container {
+    width: 100%;
+    max-width: 40.5rem;
+}
+
+.s-work .left-container h2 {
+    color: var(--dark-blue);
+}
+
+.s-work .left-container p {
+    color: var(--dark-blue);
+    opacity: 0.6;
+    margin: 1.6rem 0;
+}
+
+.s-work .left-container .btn {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.s-work .left-container .btn span {
+    color: var(--royal-blue);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+}
+
+.s-work .left-container .btn img {
+    transition: transform .3s ease;
+}
+
+.s-work .left-container .btn:hover img {
+    transform: translateX(10px);
+}
+
+.s-work ul {
+    width: 100%;
+    max-width: 65.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4.8rem 3.5rem;
+}
+
+.s-work ul li{
+    width: 30rem;
+}
+
+.s-work ul li .number {
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    background: url("../img/bg-itens-work.svg") no-repeat center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+    margin-bottom: 1.6rem;
+}
+
+.s-work ul li h3{
+    color: var(--dark-blue);
+    margin-bottom: 0.8rem;
+}
+
+.s-work ul li p{
+    color: var(--dark-blue);
+    opacity: 0.6;
+}

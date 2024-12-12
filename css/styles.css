@@ -205,3 +205,145 @@ header nav .btn:hover{
     color: var(--dark-blue);
     opacity: 0.6;
 }
+
+.s-projects {
+    padding-top: 12.8rem;
+    padding-bottom: 15.1rem;
+}
+
+.s-projects .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6.4rem;
+}
+
+.s-projects .top .btn{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.s-projects .top h2{
+    color: var(--dark-blue);
+}
+
+.s-projects .all-projects {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.s-projects .all-projects .card-project-featured {
+    position: relative;
+    display: block;
+    max-width: 84.3rem;
+    height: 60rem;
+}
+
+.s-projects .all-projects .card-project-featured .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(306deg, #1C1E53 0%, rgba(28, 30, 83, 0.42));
+    width: 100%;
+    max-width: 39.6rem;
+    height: 100%;
+    z-index: 1;
+    padding-left: 4.8rem;
+    padding-right: 3.5rem;
+    padding-bottom: 7.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.s-projects .all-projects .card-project-featured .overlay p{
+    margin-top: 1.6rem;
+    margin-bottom: 4rem;
+    max-width: 29.3rem;
+}
+
+.s-projects .all-projects .card-project-featured .overlay span {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    color: var(--yellow);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+}
+
+.s-projects .all-projects .card-project-featured .image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Máscara para nao quebrar a imagem */
+}
+
+.s-projects .all-projects .card-project-featured .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.s-projects .all-projects .second-projects {
+    width: 100%;
+    max-width: 40.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.s-projects .all-projects .second-projects .card-project {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 28.4rem;
+}
+
+.s-projects .all-projects .second-projects .card-project .image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.s-projects .all-projects .second-projects .card-project .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.s-projects .all-projects .second-projects .card-project .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(306deg, #1C1E53 0%, rgba(28, 30, 83, 0.42));
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    padding-left: 5.6rem;
+    padding-right: 3.6rem;
+    padding-bottom: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+.s-projects .all-projects .second-projects .card-project:hover .overlay {
+    opacity: 1;
+}
+
+.s-projects .all-projects .second-projects .card-project .overlay span {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    color: var(--yellow);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    margin-top: 0.1rem;
+}

@@ -224,6 +224,14 @@ header nav .btn:hover {
     gap: 1.6rem;
 }
 
+.s-project .top .btn img {
+    transition: transform .3s ease;
+}
+
+.s-project .top .btn:hover img {
+    transform: translateX(10px);
+}
+
 .s-project .top h2 {
     color: var(--dark-blue);
 }
@@ -273,6 +281,14 @@ header nav .btn:hover {
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 2.8rem;
+}
+
+.s-project .all-projects .card-project-featured .overlay span img{
+    transition: transform .3s ease;
+}
+
+.s-project .all-projects .card-project-featured .overlay span:hover img{
+    transform: translateX(10px);
 }
 
 .s-project .all-projects .card-project-featured .image {
@@ -349,6 +365,14 @@ header nav .btn:hover {
     margin-top: 0.1rem;
 }
 
+.s-project .all-projects .second-projects .card-project .overlay span img{
+    transition: transform .3s ease;
+}
+
+.s-project .all-projects .second-projects .card-project .overlay span:hover img{
+    transform: translateX(10px);
+}
+
 .s-features {
     background-color: var(--grey);
     padding: 12.8rem 0px;
@@ -370,4 +394,28 @@ header nav .btn:hover {
     display: flex;
     gap: 2.8rem;
     flex-wrap: wrap;
+}
+
+.s-blog {
+    padding-top: 6rem;
+    padding-bottom: 12.3rem;
+}
+
+.s-blog h2{
+    color: var(--dark-blue);
+    padding-bottom: 6.4rem;
+}
+
+.s-blog .all-cards{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.s-blog .all-cards .card-post .text .subtitle img{
+    transition: transform .3s ease;
+}
+
+.s-blog .all-cards .card-post .text .subtitle:hover img{
+    transform: translateX(10px);
 }

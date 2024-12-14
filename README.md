@@ -8,7 +8,7 @@ Projeto desenvolvido para praticar conceitos de CSS3 como:
 - animações,
 - responsividade nas versões desktop e mobile.
 
-<!-- ### 💻 [Clique aqui](https://lucianopiantavinharoza.github.io/finsweet/) para acessar a versão que eu desenvolvi! -->
+### 💻 [Clique aqui](https://lucianopiantavinharoza.github.io/finsweet/) para acessar a versão que eu desenvolvi!
 
 ## 🚀 Tecnologias
 

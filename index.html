@@ -12,6 +12,8 @@
 
     <title>Finsweet</title>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/components.css">
@@ -56,7 +58,7 @@
     <section class="s-hero">
         <div class="container">
 
-            <div class="text">
+            <div class="text" data-aos="fade-right">
 
                 <h1>Building stellar websites for early startups</h1>
                 <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -75,7 +77,8 @@
 
             </div>
 
-            <img src="./img/Illustration-hero.svg" alt="imagem de uma janela abertas de software.">
+            <img src="./img/Illustration-hero.svg" class="ilustra" data-aos="fade-up"
+                alt="imagem de uma janela abertas de software.">
 
         </div>
     </section>
@@ -83,7 +86,7 @@
     <section class="s-work">
         <div class="container">
 
-            <div class="left-container">
+            <div class="left-container" data-aos="fade-right">
 
                 <h2>How we work</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -97,9 +100,9 @@
 
             </div>
 
-            <ul>
+            <ul data-aos="fade-left">
 
-                <li>
+                <li data-aos="fade-down-right">
                     <span class="number">01</span>
                     <div class="text">
                         <h3>Strategy</h3>
@@ -109,7 +112,7 @@
                     </div>
                 </li>
 
-                <li>
+                <li data-aos="fade-down-left">
                     <span class="number">02</span>
                     <div class="text">
                         <h3>Wireframing</h3>
@@ -119,7 +122,7 @@
                     </div>
                 </li>
 
-                <li>
+                <li data-aos="fade-up-right">
                     <span class="number">03</span>
                     <div class="text">
                         <h3>Design</h3>
@@ -129,7 +132,7 @@
                     </div>
                 </li>
 
-                <li>
+                <li data-aos="fade-up-left">
 
                     <span class="number">04</span>
 
@@ -150,7 +153,7 @@
     <section class="s-project">
         <div class="container">
 
-            <div class="top">
+            <div class="top" data-aos="fade-right">
 
                 <h2>View our projects</h2>
 
@@ -163,7 +166,7 @@
 
             <div class="all-projects">
 
-                <a href="#" class="card-project-featured">
+                <a href="#" class="card-project-featured" data-aos="fade-up">
 
                     <div class="image">
                         <img src="./img/project-01.jpg" alt="Imagem de um projeto do site">
@@ -180,7 +183,7 @@
 
                 </a>
 
-                <div class="second-projects">
+                <div class="second-projects" data-aos="fade-left">
 
                     <a href="#" class="card-project">
 
@@ -222,14 +225,14 @@
     <section class="s-features">
         <div class="container">
 
-            <div class="title">
+            <div class="title" data-aos="fade-down">
                 <span class="subtitle">Features</span>
                 <h2>Design that solves problems, one product at a time</h2>
             </div>
 
             <div class="all-cards">
 
-                <div class="card-featured">
+                <div class="card-featured" data-aos="flip-left">
 
                     <div class="icon">
                         <img src="./img/icon-client.svg" alt="">
@@ -245,7 +248,7 @@
 
                 </div>
 
-                <div class="card-featured">
+                <div class="card-featured" data-aos="flip-left">
 
                     <div class="icon">
                         <img src="./img/icon-revision.svg" alt="">
@@ -261,7 +264,7 @@
 
                 </div>
 
-                <div class="card-featured">
+                <div class="card-featured" data-aos="flip-left">
 
                     <div class="icon">
                         <img src="./img/icon-template.svg" alt="">
@@ -277,7 +280,7 @@
 
                 </div>
 
-                <div class="card-featured">
+                <div class="card-featured" data-aos="flip-right">
 
                     <div class="icon">
                         <img src="./img/icon-support.svg" alt="">
@@ -293,7 +296,7 @@
 
                 </div>
 
-                <div class="card-featured">
+                <div class="card-featured" data-aos="flip-right">
 
                     <div class="icon">
                         <img src="./img/icon-delivery.svg" alt="">
@@ -309,7 +312,7 @@
 
                 </div>
 
-                <div class="card-featured">
+                <div class="card-featured" data-aos="flip-right">
 
                     <div class="icon">
                         <img src="./img/icon-hands.svg" alt="">
@@ -333,11 +336,11 @@
     <section class="s-blog">
         <div class="container">
 
-            <h2>Our blog</h2>
+            <h2 data-aos="fade-up">Our blog</h2>
 
             <div class="all-cards">
 
-                <a href="#" class="card-post">
+                <a href="#" class="card-post" data-aos="fade-right">
 
                     <div class="image">
                         <img src="./img/post-01.jpg" alt="Imagem de um homem com um notbook na rua.">
@@ -359,7 +362,7 @@
 
                 </a>
 
-                <a href="#" class="card-post">
+                <a href="#" class="card-post" data-aos="fade-up">
 
                     <div class="image">
                         <img src="./img/post-02.jpg" alt="Imagem de uma mulher trabalhando no seu computador.">
@@ -381,7 +384,7 @@
 
                 </a>
 
-                <a href="#" class="card-post">
+                <a href="#" class="card-post" data-aos="fade-left">
 
                     <div class="image">
                         <img src="./img/post-03.jpg" alt="Imagem da tela de um computador com projetos de design.">
@@ -502,6 +505,16 @@
         </div>
 
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init({ 
+            duration: 1000, 
+            once: true, 
+            disable: 'mobile' 
+        });
+    </script>
 
 </body>
 
